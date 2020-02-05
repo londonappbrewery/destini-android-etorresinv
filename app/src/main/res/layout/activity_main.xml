@@ -52,6 +52,17 @@
         android:textColor="#ecf0f1"
         android:textSize="15sp"/>
 
+    <TextView
+        android:id="@+id/restartTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/restart_prompt"
+        android:textColor="#ffffffff"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="40dp"
+        android:visibility="gone"/>
 
 
 </RelativeLayout>
